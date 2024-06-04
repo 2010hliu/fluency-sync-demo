@@ -1,6 +1,8 @@
 # fluency-sync-demo
 
+```
 ./sync_cli
+```
 
 https://s3.amazonaws.com/SecurityDo/public/sync_cli
 
