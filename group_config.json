@@ -1,0 +1,12 @@
+{
+   "groups":[
+      {
+        "name":"MSSP_GroupName",
+        "description":"GitHub Sync Placeholder - remove for deployment"
+      },
+      {
+        "name":"Placeholder",
+        "description":"GitHub Sync Placeholder - remove for deployment"
+      }
+   ]
+}
