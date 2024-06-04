@@ -1,0 +1,16 @@
+{
+   "type": "fplProcessor",
+   "entries": [
+      {
+         "id": 770001,
+         "group": "Placeholder",
+         "name": "GitHubSync_Placeholder_Processor",
+         "type": "fpl_processor",
+         "description": "Deployed via GitHub Sync. Default system Syslog event passthrough",
+         "scriptLang": "",
+         "scriptText": "// Processor Name:\n// Syslog_Passthrough\n// Description:\n// Template: Default system Syslog event passthrough \n\n// Data input format: ({ obj, size, source }) or ( doc )\nfunction main({obj, size, source}) {\n    //\n    obj[\"@type\"] = \"event\"\n    if (source \u0026\u0026 source != \"\" ) {\n        obj[\"@collector\"] = source\n    } else {\n        obj[\"@collector\"] = \"fluency-server\" // server side syslog collector ('local')\n    }\n    obj[\"@parser\"] = \"fpl-sync\"\n    return { status: \"pass\" }\n}\n",
+         "createdOn": "2024-05-24T12:01:00.790817174Z",
+         "updatedOn": "2024-05-24T12:01:00.790817174Z"
+      }
+   ]
+}

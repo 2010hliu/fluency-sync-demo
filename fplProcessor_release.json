@@ -1,0 +1,15 @@
+{
+   "type": "fplProcessor",
+   "entries": [
+      {
+         "id": 770001,
+         "name": "GitHubSync_Placeholder_Processor",
+         "group": "Placeholder",
+         "gitHash": "f0853b3530d089a1ceb6c9b1941cbc4a392371fd",
+         "description": "Deployed via GitHub Sync. Default system Syslog event passthrough",
+         "commit": "8622bd7",
+         "lastUpdate": "2024-06-04T14:52:18-04:00",
+         "lastComment": "add example processor"
+      }
+   ]
+}
