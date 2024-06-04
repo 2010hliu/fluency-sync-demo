@@ -1,0 +1,78 @@
+{
+   "id": 150001,
+   "name": "GitHubSync_Placeholder",
+   "group": "Placeholder",
+   "description": "Deployed via GitHub Sync, placeholder Rule",
+   "disabled": false,
+   "enableTotal": false,
+   "eventType": "event",
+   "resourceType": "",
+   "aggregationBucket": false,
+   "isProcessor": false,
+   "processor": "",
+   "ruleGroup": "",
+   "timeSlices": [
+      "1d",
+      "1h",
+      "1m"
+   ],
+   "eventSelector": {
+      "matchAll": false,
+      "eventFilter": "",
+      "query": {
+         "match_all": {}
+      },
+      "mustFilters": [
+         {
+            "field": "@sender",
+            "terms": [
+               "placeholder"
+            ],
+            "filterType": "field"
+         }
+      ],
+      "lvdbQueryFlag": false
+   },
+   "behaviorRule": {
+      "name": "GitHubSync_Placeholder",
+      "behavior": "application activity",
+      "keyType": "ip",
+      "key": "@sender",
+      "timelineFlag": false,
+      "caseFlag": false,
+      "fields": [
+         "@sender"
+      ],
+      "risks": [
+         "ALERT_NORMAL"
+      ],
+      "rules": [],
+      "attributes": [
+         {
+            "field": "@sender",
+            "aliase": "Sender",
+            "objectFlag": false,
+            "objectField": {
+               "keyField": "",
+               "valueField": "",
+               "key": ""
+            },
+            "entityInfo": ""
+         }
+      ]
+   },
+   "translation": {},
+   "updatedOn": "2024-05-24T18:08:12.237408476Z",
+   "createdOn": "2024-05-24T18:08:12.237408476Z",
+   "deployedOn": "0001-01-01T00:00:00Z",
+   "tags": [],
+   "searchProfile": "",
+   "discard": false,
+   "history": [
+      {
+         "comment": "",
+         "username": "howard@security.do",
+         "createdOn": "2024-05-24T18:08:12.237408476Z"
+      }
+   ]
+}
