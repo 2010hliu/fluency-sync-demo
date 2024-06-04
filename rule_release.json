@@ -1,0 +1,15 @@
+{
+   "type": "rule",
+   "entries": [
+      {
+         "id": 150001,
+         "name": "GitHubSync_Placeholder",
+         "group": "Placeholder",
+         "gitHash": "389051a5e0233c25aa1e447e1190470e89e8286b",
+         "description": "Deployed via GitHub Sync, placeholder Rule",
+         "commit": "957e12b",
+         "lastUpdate": "2024-06-04T14:51:39-04:00",
+         "lastComment": "add example rule"
+      }
+   ]
+}
