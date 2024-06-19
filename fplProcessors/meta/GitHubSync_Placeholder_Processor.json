@@ -1,0 +1,12 @@
+{
+   "id": 770001,
+   "group": "Placeholder",
+   "gitPath": "fplProcessors/code/GitHubSync_Placeholder_Processor.js",
+   "name": "GitHubSync_Placeholder_Processor",
+   "type": "fpl_processor",
+   "description": "Deployed via GitHub Sync. Default system Syslog event passthrough",
+   "scriptLang": "",
+   "scriptText": "",
+   "createdOn": "2024-06-19T21:00:15.866041588Z",
+   "updatedOn": "2024-06-19T21:00:15.866041588Z"
+}
