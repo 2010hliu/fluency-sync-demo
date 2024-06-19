@@ -4,13 +4,13 @@
 ./sync_cli
 ```
 
-https://s3.amazonaws.com/SecurityDo/public/sync_cli
+> https://s3.amazonaws.com/SecurityDo/public/sync_cli
 
 ## CMD format
 ```
 add_rule <repo-dir> <site-name> <rule-name>
 add_filter <repo-dir> <site-name> <filter-name>/<rule-name> <group-name>
-add_fpl_processor <repo-dir> <site-name> <rule-name> <group-name>
+add_fpl2_processor <repo-dir> <site-name> <rule-name> <group-name>
 ```
 
 ```
@@ -44,7 +44,7 @@ release /home/hliu/github/fluency-sync-demo filter
 ### Add processor (from site)
 
 ```
-add_fpl_processor /home/hliu/github/fluency-sync-demo mssptestsite GitHubSync_Placeholder_Processor Placeholder
+add_fpl2_processor /home/hliu/github/fluency-sync-demo mssptestsite GitHubSync_Placeholder_Processor Placeholder
 ```
 
 ### Release processor(s), build release file
