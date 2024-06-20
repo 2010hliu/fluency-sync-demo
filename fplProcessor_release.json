@@ -5,11 +5,14 @@
          "id": 770001,
          "name": "GitHubSync_Placeholder_Processor",
          "group": "Placeholder",
-         "gitHash": "f0853b3530d089a1ceb6c9b1941cbc4a392371fd",
+         "gitHash": "faf1717058221a823d35a69ff50a7a101a7cfef7",
          "description": "Deployed via GitHub Sync. Default system Syslog event passthrough",
-         "commit": "8622bd7",
-         "lastUpdate": "2024-06-04T14:52:18-04:00",
-         "lastComment": "add example processor"
+         "gitPath": "fplProcessors/code/GitHubSync_Placeholder_Processor.js",
+         "contentCommit": "a6260f3",
+         "contentGitHash": "8a67a4ef888dfff799a9967b9b0dcd0d509d01b9",
+         "commit": "a6260f3",
+         "lastUpdate": "2024-06-19T18:25:10-04:00",
+         "lastComment": "change processor file format"
       }
    ]
 }
