@@ -1,7 +1,7 @@
 {
    "id": 150001,
    "name": "GitHubSync_Placeholder",
-   "group": "Placeholder",
+   "group": "MSSP_GroupName",
    "description": "Deployed via GitHub Sync, placeholder Rule",
    "disabled": false,
    "enableTotal": false,
